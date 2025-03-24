@@ -1,5 +1,5 @@
 # Structure from Motion-based Depth Estimation in Indoor Environments for Tello Drones
-This repository consists of an implementation of an ORB feature point depth estimation via Structure from Motion using a Tello Drone's camera feed and VICON. We used a Tello Drone to get the camera sequence to process but you can do it with any kind of mobile robot that you want. For more details about the theory and experiments behind this work, see [this file](./report.pdf).
+This repository consists of an implementation of an ORB feature point depth estimation via Structure from Motion using a Tello Drone's camera feed and VICON. We used a Tello Drone to get the camera sequence to process but you can do it with any kind of mobile robot that you want. For more details about the theory and experiments behind this work, see [this file](./Documentation.pdf).
 
 ## Table of Contents
 - [ORB Feature Extraction](#orb-feature-extraction)
@@ -22,7 +22,7 @@ This repository consists of an implementation of an ORB feature point depth esti
 ## Depth Estimation
 - Render your data as a *.mat* file and import it to your workspace.
 - Install the [yalmip](https://yalmip.github.io/) toolbox and the [SDPT3](https://yalmip.github.io/solver/sdpt3/) solver as well.
-- Run [LMIs.m](./LMIs.m) to calculate the observer gain (make sure your velocity equations respects the fixed fuzzy bounding, see [the project's report](./project_report.pdf) for more details).
+- Run [LMIs.m](./LMIs.m) to calculate the observer gain (make sure your velocity equations respects the fixed fuzzy bounding, see [the project's report](./Documentation.pdf) for more details).
 - Run [SFM_qlpv.slx](./SFM_qlpv.slx) to get the depth estimation. Please note that the qLPV camera model is used as the depth's ground truth here for the sake of checking the observer's performance.
 
 ## Contact
