@@ -1,7 +1,7 @@
 # Structure from Motion-based Depth Estimation in Indoor Environments for Tello Drones
 This repository consists of an implementation of an ORB feature point depth estimation via Structure from Motion using a Tello Drone's camera feed and VICON. We used a Tello Drone to get the camera sequence to process but you can do it with any kind of mobile robot that you want. For more details about the theory and experiments behind this work, see [this file](./Documentation.pdf).
 
-**<ins>PS</ins>. This repository is not finished yet, certain files are waiting approval to be committed​​ ‼️​**
+**<ins>PS</ins>. This repository is not finished yet, approval to commit certain files is currently pending​​ ‼️​**
 
 ## Table of Contents
 - [ORB Feature Extraction](#orb-feature-extraction)
